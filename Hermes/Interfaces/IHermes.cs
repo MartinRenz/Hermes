@@ -2,6 +2,7 @@
 {
     public interface IHermes
     {
-        void Handle<TMessage>(TMessage message);
+        Task<TResponse> Send<TResponse>(IRequest<TResponse> message, CancellationToken cancellationToken = default);
+        Task Send(IRequest request, CancellationToken cancellationToken = default);
     }
 }

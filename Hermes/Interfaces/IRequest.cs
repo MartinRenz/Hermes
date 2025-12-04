@@ -1,5 +1,5 @@
 ﻿namespace Hermes.Interfaces
 {
     public interface IRequest {}
-    public interface IRequest<TRequest>{}
+    public interface IRequest<TResponse>{}
 }

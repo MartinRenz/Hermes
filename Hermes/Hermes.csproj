@@ -7,7 +7,7 @@
   </PropertyGroup>
   
   <PropertyGroup>
-    <PackageId>MDR.Hermes</PackageId>
+    <PackageId>Hermes.Mediator</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

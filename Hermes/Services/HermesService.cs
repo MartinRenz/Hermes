@@ -3,11 +3,11 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Hermes.Services
 {
-    public sealed class Hermes : IHermes
+    public sealed class HermesService : IHermes
     {
         private readonly IServiceProvider _serviceProvider;
 
-        public Hermes(IServiceProvider serviceProvider)
+        public HermesService(IServiceProvider serviceProvider)
         {
             _serviceProvider = serviceProvider;
         }
